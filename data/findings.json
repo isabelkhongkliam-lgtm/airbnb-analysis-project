@@ -1,0 +1,137 @@
+{
+  "n_rows": 4046,
+  "n_cols": 20,
+  "n_countries": 9,
+  "n_cities": 13,
+  "dupes": 0,
+  "missing_total": 0,
+  "price": {
+    "mean": 224.66,
+    "median": 120.0,
+    "std": 399.02,
+    "min": 9.0,
+    "q25": 68.0,
+    "q75": 250.0,
+    "q90": 500.0,
+    "q99": 1393.4,
+    "max": 11681.0,
+    "skew": 13.46,
+    "pct_above_500": 9.9,
+    "pct_below_median_band": 51.3
+  },
+  "listings_by_country": {
+    "United States": 1061,
+    "Canada": 484,
+    "Australia": 481,
+    "Spain": 470,
+    "Portugal": 460,
+    "Hong Kong": 432,
+    "Brazil": 343,
+    "Turkey": 302,
+    "China": 13
+  },
+  "listings_by_city": {
+    "New York": 532,
+    "Montreal": 484,
+    "Sydney": 481,
+    "Barcelona": 470,
+    "Porto": 459,
+    "Hong Kong": 445,
+    "Rio De Janeiro": 343,
+    "Istanbul": 302,
+    "Oahu": 228,
+    "Maui": 124,
+    "The Big Island": 121,
+    "Kauai": 56,
+    "Other (International)": 1
+  },
+  "top_country": "United States",
+  "top_city": "New York",
+  "median_price_by_city": {
+    "Hong Kong": 573.0,
+    "Kauai": 227.5,
+    "Maui": 220.0,
+    "Rio De Janeiro": 209.0,
+    "Istanbul": 182.0,
+    "Sydney": 135.0,
+    "Oahu": 135.0,
+    "The Big Island": 115.0,
+    "New York": 110.0,
+    "Other (International)": 99.0,
+    "Montreal": 75.0,
+    "Barcelona": 60.0,
+    "Porto": 55.0
+  },
+  "median_price_by_country": {
+    "Hong Kong": 589.0,
+    "China": 393.0,
+    "Brazil": 209.0,
+    "Turkey": 182.0,
+    "Australia": 135.0,
+    "United States": 130.0,
+    "Canada": 75.0,
+    "Spain": 60.0,
+    "Portugal": 55.0
+  },
+  "most_expensive_city": [
+    "Hong Kong",
+    573.0
+  ],
+  "least_expensive_city": [
+    "Porto",
+    55.0
+  ],
+  "availability_365": {
+    "mean": 171.6,
+    "median": 169.0,
+    "zeros": 760,
+    "zeros_pct": 18.8,
+    "full": 162
+  },
+  "avail_by_city_top": [
+    "Istanbul",
+    331.0
+  ],
+  "avail_by_city_bottom": [
+    "Sydney",
+    65.0
+  ],
+  "reviews": {
+    "mean": 37.8,
+    "median": 15.0,
+    "max": 533,
+    "q75": 48.8
+  },
+  "review_score": {
+    "median": 9.0,
+    "mean": 9.31,
+    "pct_ge9": 88.4,
+    "pct_ge8": 97.0,
+    "min": 2.0
+  },
+  "amenities_count": {
+    "mean": 23.9,
+    "median": 22.0,
+    "min": 1,
+    "max": 76
+  },
+  "host": {
+    "n_hosts": 3765,
+    "max_listings": 11,
+    "pct_multi": 11.9
+  },
+  "price_correlations": {
+    "no_of_reviews": -0.079,
+    "availability_90": 0.055,
+    "review_score": -0.055,
+    "availability_60": 0.049,
+    "availability_30": 0.041,
+    "host_listings_count": 0.036,
+    "amenities_count": -0.019,
+    "availability_365": 0.014
+  },
+  "strongest_corr_with_price": [
+    "no_of_reviews",
+    -0.079
+  ]
+}
